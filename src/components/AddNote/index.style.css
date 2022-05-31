@@ -1,0 +1,14 @@
+.add-note-root {
+    display: none;
+}
+
+.input-note {
+    border: 1px solid #42C2FF;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.add-btn {
+    border-radius: 6px;
+}

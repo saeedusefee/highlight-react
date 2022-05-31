@@ -1,0 +1,50 @@
+.box-root {
+  background-color: azure;
+  border-radius: 6px;
+  padding: 15px;
+}
+
+.mark-red {
+  background-color: red;
+}
+
+.mark-green {
+  background-color: green;
+}
+
+.mark-yellow {
+  background-color: yellow;
+}
+
+.remove-mark {
+  background-color: azure;
+}
+
+[data-tooltip]:before {            
+  position : absolute;
+   content : attr(data-tooltip);
+   background-color: black;
+   opacity : 0;
+}
+
+[data-tooltip]:hover:before {        
+  opacity : 1;
+}
+
+button {
+  margin: 0 5px;
+  background-color: royalblue;
+  border: none;
+  color: #FFF;
+  padding: 5px;
+}
+
+[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  background-color: #000000;
+  color: #fff;
+  padding: 10px;
+  top: 100px;
+  right: 0;
+}
